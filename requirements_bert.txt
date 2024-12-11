@@ -1,0 +1,22 @@
+# dépendances du modèle
+cloudpickle==3.1.0
+defusedxml==0.7.1
+jinja2==3.1.4
+numpy==1.26.0
+pandas==2.2.3
+scikit-learn==1.5.2
+torch==2.1.0+cpu
+torchvision==0.20.0+cpu
+transformers==4.47.0
+
+# fonctionnement de l'app
+Flask
+azure-storage-blob
+gunicorn
+deep-translator
+pytest
+
+# suivi dans Azure Application Insight
+azure-monitor-opentelemetry-exporter
+opentelemetry-api
+opentelemetry-sdk
