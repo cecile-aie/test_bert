@@ -5,8 +5,8 @@ numpy==1.26.0
 pandas==2.2.3
 scikit-learn==1.5.2
 scipy==1.13.1
-torch==2.0.1+cpu  # Version CPU de PyTorch
-torchvision==0.15.2+cpu  # Version CPU de Torchvision
+torch==2.0.1  # Version CPU de PyTorch
+torchvision==0.15.2  # Version CPU de Torchvision
 transformers==4.47.0
 jinja2==3.1.4
 
@@ -21,3 +21,5 @@ pytest
 azure-monitor-opentelemetry-exporter
 opentelemetry-api
 opentelemetry-sdk
+
+--extra-index-url https://download.pytorch.org/whl/cpu
